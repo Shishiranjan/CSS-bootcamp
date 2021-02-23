@@ -1,0 +1,15 @@
+/* Sometimes we have to do the styling in both the heading at the same time then in that case we use the grouping selectors simply like this h1, h2 and then curly braces. After writing these both heading tags at the same time the styling gots reflected in the htmldocument at the same time. But on the other hand if between these two headings therse is a paragraph then how can we do that.So for that we simply use 
+id selector whuch can be selected basically by using # symbol. */
+#heading {
+  color: green;
+  background: hotpink;
+  text-align: center;
+  font-size: 3rem;
+}
+
+#info {
+  color: palevioletred;
+  background: red;
+  text-align: center;
+  font-size: 3rem;
+}
