@@ -1,0 +1,17 @@
+/* There are also div and span tags in CSS. The functionality of div tag is to style the whoe heading at the same time. But what if we want some part of paragraph to be bold or italicized or placed at the center then in tht case span tags comes into role. We can also be able to add the class in both div and span tag. */
+
+.green {
+  font-size: 5rem;
+}
+
+.red {
+  text-align: center;
+}
+div {
+  color: red;
+  background: grey;
+}
+
+span {
+  text-transform: uppercase;
+}
