@@ -1,0 +1,13 @@
+/* In CSS inheritance basically operates on a principle that whatever styles we are gonna add into the parent element, the children elements are also going to be inherited. Unless we specifically style the children element. */
+
+body {
+  color: green;
+}
+
+div {
+  color: blue;
+}
+
+h2 {
+  color: green;
+}
