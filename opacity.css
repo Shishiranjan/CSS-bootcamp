@@ -1,0 +1,5 @@
+/* opacity or transparency is the 4th value of the rgb which actually indicates the saturation of the color. It means that how much we keepthe color as thick or green. And the thickness of the color  ranges from 0 to 1.*/
+
+body {
+  background-color: rgb(214, 188, 168, 0.3);
+}
