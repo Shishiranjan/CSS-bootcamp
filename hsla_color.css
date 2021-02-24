@@ -1,0 +1,12 @@
+/* It basically works the same as hsl. Only difference between these two is that hsla has also  the fourth argument known as opacity which basically indicates the thickness of the color and its value ranges from 0 to 1.*/
+h1 {
+  /*green color with opacity as 0.4 */
+  background-color: hsl(120, 100%, 50%, 0.4);
+  /*Light green with opacity as 0.3 */
+  background-color: hsl(120, 100%, 75%, 0.3);
+
+  /* Dark green with opacity as 0.5 */
+  background-color: hsl(120, 100%, 75%, 0.5);
+  /*Pastel green with opacity as 0.7 */
+  background-color: hsl(120, 100%, 70%, 0.7);
+}
