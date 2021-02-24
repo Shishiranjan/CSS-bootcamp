@@ -1,0 +1,12 @@
+/* The main work of gradient is to saturate the color actually from any starting color to ending color. The work of gradient can be performed in two ways which is either by linear gradient method or by radial gradient method. */
+/*Linergradient method*/
+
+body {
+  background-color: linear-gradient(to bottom, 136, 188, 124);
+}
+
+/* radial gradient method*/
+
+h2 {
+  background-color: radial-gradient(red 20%, green 55%, blue 40%);
+}
