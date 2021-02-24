@@ -1,0 +1,21 @@
+/*There is also another unit of length in css which is rem and this unit of length doesnot depends on parent but it depends on the root element.And in html the root element is always html tag. So any tag which is warpped up inside the html tag then the fontsize specified in html tag becomes the value of 1rem in child tag.*/
+html {
+  /*Here 1rem becomes equal to 24px*/
+  font-size: 24px;
+}
+div {
+  font-size: 20px;
+}
+.relative {
+  /*Here 3em becomes equal to 72px because 1em is defined to 24px in root tag which is html.*/
+  font-size: 3em;
+}
+
+div {
+  font-size: 10px;
+}
+
+.absolute {
+  /* here also 3em becomes become equal to 72 px because in root tag which is  html 1em is defined to 24px. So finally both the font size of relative and absolute class is same here*/
+  font-size: 3em;
+}
