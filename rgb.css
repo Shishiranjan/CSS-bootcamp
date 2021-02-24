@@ -1,0 +1,8 @@
+/* rgb  is actually the second way to represent the colors in css. rgb actually has the three parameters i which the first one is the amount of red color present, second one is the amount of green color present and the third one is the amount of blue color present. The value of rgb actually ranges from 0 to 256. */
+
+body {
+  background-color: rgb(152, 167, 174);
+}
+h2 {
+  background-color: rgb(200, 195, 141);
+}
