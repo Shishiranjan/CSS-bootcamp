@@ -1,0 +1,13 @@
+/* HSL color basically stands for hue, saturation and lightness which these are the parameter of hsl function. The first argument which is hue is basically the different value which specifies the color which is either red or green or blue. The value of hue ranges from 0 degree to 360 degree. 0 degree or 360 degree stands for red while 120 degree stands for green and 240 degre stands for blue. The second argument which is saturation indicates the thickness of the color whose value ranges from 0 to 100%. And the last argument is lightness which indicates that how light or how dark is the color. It's value also ranges from 0 to 100% */
+
+h1 {
+  /*green color*/
+  background-color: hsl(120, 100%, 50%);
+  /*Light green*/
+  background-color: hsl(120, 100%, 75%);
+
+  /* Dark green*/
+  background-color: hsl(120, 100%, 75%);
+  /*Pastel green*/
+  background-color: hsl(120, 100%, 70%);
+}
