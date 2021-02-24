@@ -1,0 +1,13 @@
+/*view height and view width both are related to the screen of any device. What view height basically does is to make some part of your screen colorable based on what you defined under. Suppose you define the view height as 50 and the background color is red. Then it means that it makes your 50 percent of the screen red based on the height. And same as for view width. One important thing to note here is that both vh and vw vary according to your screen size.*/
+
+.viewheight {
+  width: 50vw;
+  height: 50vh;
+  background: rgb(147, 154, 175, 0.2);
+}
+
+.viewwidth {
+  width: 60vw;
+  height: 70vh;
+  background: rgb(196, 214, 144, 0.5);
+}
