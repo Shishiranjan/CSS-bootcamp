@@ -1,0 +1,9 @@
+/*This property of CSS has actually 4 values which are underline, overline, line through and none.
+/* it can be used like this.*/
+
+#link {
+  text-decoration: underline;
+  text-decoration: line-through;
+  text-decoration: overline;
+  text-decoration: none;
+}
