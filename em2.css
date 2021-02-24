@@ -1,0 +1,18 @@
+/*But on the other hand if we wrap up one tag of html inside another tag then the unit of length specified in parent tag becomes the base value for the children tag.For ex, here we wrap up both the h2 tag defined in em2.html file inside div tag. So here div tag is the parent of h2 tag. So suppose  if we define the font size of div tag as 10px then for h2 tag it becomes the base value i.e for h2 tag 1em becomes equal to 1px.*/
+
+div {
+  font-size: 20px;
+}
+.relative {
+  /*Here 3em becomes equal to 60px because 1emis defined to10px in parent tag which is div.*/
+  font-size: 3em;
+}
+
+div {
+  font-size: 10px;
+}
+
+.absolute {
+  /*But here 3em becomes become equal to 30 px because in another parent tag which is also div 1em is defined to 10px*/
+  font-size: 3em;
+}
