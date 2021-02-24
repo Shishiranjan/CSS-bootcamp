@@ -1,0 +1,9 @@
+/* em is actually the length of an unit which basically depends on the parent class. And this unit of length is relative. For the browser like google chrome 1 em is equal to 16 px. So here we in html file named with em, relative is the parent class and absolute is the child class. So if i write the font size of the text written inside the parent class which is relative as 2 em and if we write the font size of child class which is absolute as 32px then both sizes treated as same. Because as in google chro,e 1em is equal to 16px so 2em is equal to 32 px. Therefore 2em and 32px both are same.*/
+
+.relative {
+  font-size: 3em;
+}
+
+.absolute {
+  font-size: 48px;
+}
