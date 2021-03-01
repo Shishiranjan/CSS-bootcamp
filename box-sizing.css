@@ -1,0 +1,25 @@
+/*Sometimes what happens that if we specify the width and weight of any text cobtent with its color then sometimes due to unappropriate use of height and width, one box lie upon the another box. So to overcome this problem we simply use the property of box-sizing to each of the text-content and set its vale as border-box*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box-1 {
+  background: blue;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.box-2 {
+  background: greenyellow;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.box-3 {
+  background: indianred;
+  padding: 20px;
+  box-sizing: border-box;
+}
