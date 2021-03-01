@@ -1,0 +1,26 @@
+/* In simple words we can say that Media queries is simply related with the screens. No matter it is the screen of monitor or mobile or tablet or anything else. Now when we say screens then one thing comes in mind is that the screen has actually resolutions right which we also called as pixels. So im media queries, Some operations have to be performed if the screen pixel is something. Suppose if the screen pixel is 600 then i have to make the background of the screen red otherwise the screen becomes blue. So it actually also works as a if else statement. */
+
+body {
+  background: goldenrod;
+}
+
+.one {
+  background: yellow;
+}
+
+h2 {
+  background: tomato;
+  font-size: 30px;
+}
+
+/*this line actually tells that if the screen size ranges from 0 to 679px then the color of body becomes goldenrod and the background of class one becomes yellow. But when the pixel exceeds the size of 679px then the background of body bbecomes red and also similarly other operations are performed. Max-width justworks the opposite of min-width.*/
+@media screen and (min-width: 679px) {
+  body {
+    background: red;
+  }
+
+  .one {
+    background: turquoise;
+    border: dotted;
+  }
+}
