@@ -1,0 +1,30 @@
+/*Css Box modelhas actually three properties which are border, padding and margin. What border actually does is that it simply enclose your text inside a box. And you can even give the color to your border or you can also be able to specify the height and width of your border and many more. But on the other hand padding actually create a gap around your text either from the top or bottom or left or right.*/
+
+h1 {
+  background: rgb(155, 214, 146);
+  padding-top: 30px;
+  padding-bottom: 55px;
+  padding-left: 70px;
+  padding-right: 80px;
+  border-style: dotted;
+  border-width: 10px;
+  border-color: lawngreen;
+  border-top: lightcoral;
+
+  /*As you do with padding you can also be able to define the value of border from all sides in a single go.*/
+}
+
+p {
+  background: blue;
+  /*Or you can be able to use all the value of padding property in a single time like this.*/
+  /*Writing a single value of padding like this actually actually creates a gap from all sides.*/
+  padding: 50px;
+
+  /*Similarly writing a two value of padding like this actua;ly creates a gap from top and bottom at first  and then from left and right.*/
+
+  padding: 40px 80px;
+
+  /*Or you can specify all the values like this.*/
+  padding: 20px 40px, 80px, 10px;
+  margin: 80px 20px 60px 70px;
+}
