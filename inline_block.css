@@ -1,0 +1,8 @@
+/* Suppose we have soe of the repeating text or link or sentence in the same line and we want to apply margin on that. Does the margin apply from all of the four sides? The answer is no. The margin only applies from left to right in that case. So to overcome this problem, we use something called as inline block.*/
+
+a {
+  font-size: 30px;
+  background: blue;
+  margin: 40px;
+  display: inline-block;
+}
