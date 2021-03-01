@@ -1,0 +1,26 @@
+/* The property of CSS called as position has has actually six values which are static, relative, absolute, fixed, initial, and inherit. Let's try to understand the value of static by one example.Suppose we have two paragraphs enclosed inside a border apeeared one after another.If we use the position static then in that case nothing is changed but on the other hand suppose if we specify the position of 1st paragraph  to 50px from top. Here top is the value of relative property. Then inside that border it creates a gap first of 50px and then only in  starts printing the 1st paragraph in the border.And same happens for 2nd paragraph also.
+
+
+/* Now let's try to understand the absolute property. If we specify the absolute property then in that case at first it searches for its ancestor element and if any ancestor element founds then it performs the operation according to that ancestor elemnt.Suppose we have some highlited text in paragraph 2 and we want that highlited text to be printed in top. Then at first it searches for relative property and if it finds then these highlited text wil get printed defined under relative part.*/
+
+.green {
+  border: 3px solid blue;
+  background: red;
+  margin-top: 40px;
+  position: relative;
+}
+
+.one {
+  background: red;
+}
+.two {
+  background: cornflowerblue;
+}
+
+.three {
+  background: cornflowerblue;
+  font-size: 20px;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
