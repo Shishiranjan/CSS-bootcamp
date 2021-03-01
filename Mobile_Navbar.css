@@ -1,0 +1,40 @@
+/* Block: Top bottom margin is respected
+Inline: Top bottom margin is not respected.
+Mobile Navbar
+list-style-type:property
+descendant selectors
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Here it says that under the unordered choose all of the list and then perform these given operratins on all these lists at the same time*/
+ul li {
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  background: green;
+  color: greenyellow;
+  display: block;
+  padding: 10px 10px;
+  margin: 10px;
+}
+
+/*Here also it says that under the unordered list choose all of the list and link and perform all these operations at the same time.*/
+ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  background: green;
+  color: greenyellow;
+  display: block;
+  padding: 10px 10px;
+  margin: 10px;
+}
